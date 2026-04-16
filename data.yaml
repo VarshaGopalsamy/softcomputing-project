@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Meningioma']
+
+roboflow:
+  workspace: varsha-z82lz
+  project: brain-tumor-yolov8-esvz3
+  version: 1
+  license: CC BY 4.0
+  url: https://app.roboflow.com/varsha-z82lz/brain-tumor-yolov8-esvz3/1
